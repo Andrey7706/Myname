@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    color: #2f383b;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 27px;
+    line-height: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 215px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 33px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 33px;
+}
+
+.button {
+    width: 218px;
+    height: 55px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 51px;
+    margin-top: 28px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Шапка сайта */
+
+.header {
+    background: #4e8598;
+    height: 668px;
+}
+
+.header__logo {
+    width: 121px;
+    height: 29px;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+
+.header__button {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.header__button:hover {
+    background: #fff;
+    color: #4e8598;
+}
+
+.header__arrow {
+    margin-left: 458px;
+    margin-top: 176px;
+
+}
+
+/* Контент */
+
+main {
+    min-height: 100%;
+    padding-bottom: 113px;
+}
+
+.description:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.description__mission {
+    float: left;
+    width: 485px;
+    padding-right: 93px;
+}
+
+.description__merit {
+    float: left;
+    width: 455px;
+}
+
+h2.about {
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+
+h3:after {
+    content: '';
+    display: block;
+    width: 72px;
+    height: 3px;
+    background: #4e8598;
+    margin-top: 5px;
+}
+
+.description__mission p {
+    margin-top: 22px;
+}
+
+.description__merit li {
+    color: #b0b2b3;
+    padding-left: 63px;
+}
+
+.description__merit li:nth-child(1) {
+    background: url(img/bug.png) 0 12px no-repeat;
+    margin-top: 12px;
+}
+
+.description__merit li:nth-child(2) {
+    background: url(img/bell.png) 0 12px no-repeat;
+}
+
+.description__merit li:nth-child(3) {
+    background: url(img/storm.png) 0 12px no-repeat;
+}
+
+.description__merit li:nth-child(4) {
+    background: url(img/camera.png) 0 12px no-repeat;
+}
+
+.description__merit span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 64px;
+    color: #4e8598;
+    padding-right: 25px;
+}
+
+h2.address {
+    margin-top: 150px;
+}
+
+.features:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.features__item {
+    float: left;
+    width: 33%;
+}
+
+.features__digit {
+    margin: 0 auto;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid #2f383b;
+    font-size: 30px;
+    text-align: center;
+    line-height: 73px;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.features__digit:hover {
+    background: #2f383b;
+    color: #fff;
+}
+
+.features__title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    width: 425px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+strong {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 26px;
+    line-height: 60px;
+}
+
+.contact__button {
+    border: 2px solid #2f383b;
+    background: #2f383b;
+    color: #fff;
+}
+
+.contact__button:hover {
+    background: #fff;
+    color: #2f383b;
+}
+
+/* Подвал сайта */
+
+.footer {
+    background: #4e8598;
+    height: 113px;
+    color: #fff;
+    font-size: 13px;
+    margin-top: -113px;
+}
+
+.copy {
+    float: left;
+    padding-top: 50px;
+}
+
+.name {
+    float: left;
+    padding-top: 50px;
+    margin-left: 250px;
+}
+
+.privacy {
+    float: right;
+    padding-top: 50px;
+    border-bottom: 1px dotted #fff;
+}
+
+.privacy a {
+    color: #fff;
+}
